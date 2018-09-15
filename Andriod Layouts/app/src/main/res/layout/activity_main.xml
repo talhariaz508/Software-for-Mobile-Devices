@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.talhariaz.assignment2.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:text="L15 - 4185"
+        android:textAlignment="center"
+        android:textColor="@color/background"
+        android:textSize="36sp" />
+
+
+    <Button
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/background"
+        android:onClick="onrClick"
+        android:text="Relative Layout"
+        android:textColor="@color/text"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/background"
+        android:onClick="oncClick"
+        android:text="Contraint Layout"
+        android:textColor="@color/text"
+        android:textSize="18sp" />
+</LinearLayout>
